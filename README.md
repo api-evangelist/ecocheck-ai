@@ -1,4 +1,4 @@
-# ecocheck-ai
+# EcoCheck
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ecocheck-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://ecocheck.ai/
+EcoCheck provides greenhouse gas emissions inventory and management software for Vietnamese enterprises, automating Scope 1, 2, 3 calculations, generating reports compliant with Vietnamese regulations (NĐ 06/TT 38) and international standards (ISO 14064, ISO 14067, CBAM). The platform offers tiered pricing, integrates with AWS Cognito, and supports carbon footprint tracking for products and operations.
+
+**Areas:** Company · Greenhouse Gas · Emissions · Vietnam · SaaS · Climate
+
+## EcoCheck on APIs.io
+
+Everything profiled for EcoCheck is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ecocheck-ai/](https://apis.io/providers/ecocheck-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [EcoCheck About API](https://apis.io/apis/ecocheck-ai/ecocheck-ai-about-api/) — The About API from EcoCheck — 1 operation(s) for about.
+- [EcoCheck Articles API](https://apis.io/apis/ecocheck-ai/ecocheck-ai-articles-api/) — The Articles API from EcoCheck — 2 operation(s) for articles.
+- [EcoCheck Cbam API](https://apis.io/apis/ecocheck-ai/ecocheck-ai-cbam-api/) — The Cbam API from EcoCheck — 3 operation(s) for cbam.
+- [EcoCheck Health API](https://apis.io/apis/ecocheck-ai/ecocheck-ai-health-api/) — The Health API from EcoCheck — 1 operation(s) for health.
+- [EcoCheck Obligation API](https://apis.io/apis/ecocheck-ai/ecocheck-ai-obligation-api/) — The Obligation API from EcoCheck — 1 operation(s) for obligation.
+- [EcoCheck Pricing API](https://apis.io/apis/ecocheck-ai/ecocheck-ai-pricing-api/) — The Pricing API from EcoCheck — 1 operation(s) for pricing.
+- [EcoCheck Regulations API](https://apis.io/apis/ecocheck-ai/ecocheck-ai-regulations-api/) — The Regulations API from EcoCheck — 1 operation(s) for regulations.
+- [EcoCheck Search API](https://apis.io/apis/ecocheck-ai/ecocheck-ai-search-api/) — The Search API from EcoCheck — 1 operation(s) for search.
+- [EcoCheck Services API](https://apis.io/apis/ecocheck-ai/ecocheck-ai-services-api/) — The Services API from EcoCheck — 1 operation(s) for services.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Ecocheck Ai Agentic Access](https://apis.io/agentic-access/ecocheck-ai/ecocheck-ai-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [EcoCheck API Rules](https://apis.io/rules/ecocheck-ai/ecocheck-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ecocheck Ai Domain Security](https://apis.io/security/ecocheck-ai/ecocheck-ai-domain-security/)
+- [Ecocheck Ai Vulnerability Disclosure](https://apis.io/security/ecocheck-ai/ecocheck-ai-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ecocheck Ai Plans Pricing](https://apis.io/plans/ecocheck-ai/ecocheck-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ecocheck.ai/)
+- [Documentation](https://ecocheck.ai/ai/docs)
+- [API reference](https://ecocheck.ai/llms.txt)
+- [Pricing](https://ecocheck.ai/solutions/pricing)
+- [Blog](https://ecocheck.ai/article/blog)
+- [Security](https://ecocheck.ai/chinh-sach-bao-mat)
+- [Terms of service](https://ecocheck.ai/ai/terms)
+- [Privacy policy](https://ecocheck.ai/ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 45.5** — developing · rubric 0.27.0 · scored 2026-11-06
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 38.2 |
+| Contract governance | 65.5 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 51.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 25.4** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ecocheck-ai/](https://apis.io/providers/ecocheck-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for EcoCheck: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ecocheck-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
